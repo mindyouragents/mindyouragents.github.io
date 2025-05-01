@@ -37,15 +37,15 @@ The command created a master playlist file `cwc11_final.m3u8` and three other me
 The m3u8 files are like index files or metadata files for the media. The master playlist file `cwc11_final.m3u8` contains:
 
 ```bash
-hashtag#EXTM3U
-hashtag#EXT-X-VERSION:6
-hashtag#EXT-X-STREAM-INF:BANDWIDTH=1210000,RESOLUTION=480x360,CODECS="avc1.640015,mp4a.40.2"
+#EXTM3U
+#EXT-X-VERSION:6
+#EXT-X-STREAM-INF:BANDWIDTH=1210000,RESOLUTION=480x360,CODECS="avc1.640015,mp4a.40.2"
 cwc11_final-360p.m3u8
 
-hashtag#EXT-X-STREAM-INF:BANDWIDTH=2232120,RESOLUTION=640x480,CODECS="avc1.64001e,mp4a.40.2"
+#EXT-X-STREAM-INF:BANDWIDTH=2232120,RESOLUTION=640x480,CODECS="avc1.64001e,mp4a.40.2"
 cwc11_final-480p.m3u8
 
-hashtag#EXT-X-STREAM-INF:BANDWIDTH=3882120,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
+#EXT-X-STREAM-INF:BANDWIDTH=3882120,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
 cwc11_final-720p.m3u8
 ```
 
