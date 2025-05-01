@@ -1,0 +1,19 @@
+# Site settings
+title: software, AI and other boring stuff
+email: 
+description: "Musings of a curious techie."
+baseurl: ""
+url: "http://boringfyi.github.io"
+linkedin_username: sauravdey
+github_username:  
+twitter_username:
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
