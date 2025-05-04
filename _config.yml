@@ -1,9 +1,9 @@
 # Site settings
-title: shut up saurav!
+title: boring stuff
 email: 
 description: "Download space for everything in my brain. Opinionated views on software engineering, AI, tech, finance and other boring stuff."
 baseurl: ""
-url: "http://shutupsaurav.github.io"
+url: "http://boringfyi.github.io"
 linkedin_username: sauravdey
 github_username:  
 twitter_username:
