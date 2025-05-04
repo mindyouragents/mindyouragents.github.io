@@ -8,6 +8,8 @@ comments: false
 
 I am collecting some awesome AI, math and related content from blogs, websites, YouTube, etc!
 
+[Generative AI 2025 - IIT Madras & Prathosh AP](https://www.youtube.com/playlist?list=PLZ2ps__7DhBa5xCmncgH7kPqLqMBq7xlu)
+
 [Deep Dive into LLMs like ChatGPT - Andrej Karpathy](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=3790s)
 
 [3Blue1Brown Neural Networks playlist on Youtube](https://www.3blue1brown.com/topics/neural-networks)
