@@ -10,7 +10,7 @@ date:   2025-05-05 10:00:00
 We can't (practically) build applications without databases. Databases are everywhere.
 Oftentimes, we run into database issues like slow running queries, high response times, sometimes database crash.
 
-While *understanding and optimizing slow queries queries* and *how databases internally work* is an expertise in itself, but before we state the database is slow or taking huge disk space, you can start by checking the following simple, yet effective things:
+While *understanding and optimizing slow queries queries* and *how databases internally work* is an expertise in itself, but before stating the database is slow or taking huge disk space, you can start by checking the following simple, yet effective things:
 
 1. You have optimally normalized the database schema and referenced foreign keys properly
 2. You have used column sizes as much required, for example, if `varchar(1)` is ok you don't use `varchar(1024)`; if `short` is ok, you don't use `int`
