@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-mathjax: true
+mathjax: false
 title:  "Database must checks before we say queries are slow"
 excerpt: "We can't build applications without databases. Databases are everywhere. Oftentimes, we run into database issues like slow running queries and high response times. Check if you are doing these (simple) things."
 date:   2025-05-05 10:00:00
@@ -29,11 +29,11 @@ While *understanding and optimizing slow queries queries* and *how databases int
 ⭐⭐ Every time we run an `insert` or a `delete` query, right after the `commit` the database re-adjust the indices.
 For bulk inserts, the database will re-adjust the indices after the bulk insert, instead of re-adjusting them after every `insert`.
 Same for `delete`. Soft delete is done by updating a column like `is_deleted` to `false` and capturing a time stamp. So this is an `update` rather than a `delete`.
-Then you can have something as simple as a cron job (that may run during low traffic hours), to periodically bulk delete (for example) such soft deleted records at least seven days old.
+Then you can have something as simple as a cron job (that may run during low traffic hours), to periodically bulk delete such soft deleted records at least seven days old.
 You get the same advantage like you get during bulk inserts as explained above.
 
 ORMs optimize database hits with bulk operations.
 
-You can do it with raw SQL also, as a software engineer, this is one of the things you optimize for.
+You can do it with raw SQL also, as a software engineer, this is one of the things you optimize for, that shows your maturity.
 
 Another tip, for example in Postgres, use `explain` to understand how the query is executed. This is your first step to identify why a certain query is slow.
