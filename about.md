@@ -16,6 +16,6 @@ Happy to learn, happy to share.
 Connect with me on [LinkedIn](https://www.linkedin.com/in/sauravdey/).
 
 
-<img src="/assets/quote-1.jpeg" width="50%"/>
+<img src="/assets/quote-1.jpg" width="50%"/>
 
-<img src="/assets/quote-2.jpeg" width="50%"/>
+<img src="/assets/quote-2.jpg" width="50%"/>
