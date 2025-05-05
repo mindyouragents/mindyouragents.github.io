@@ -1,5 +1,14 @@
+---
+layout: post
+comments: false
+mathjax: true
+title:  "Database must checks before we say queries are slow"
+excerpt: "We can't build applications without databases. Databases are everywhere. Oftentimes, we run into database issues like slow running queries and high response times. Check if you are doing these (simple) things."
+date:   2025-05-05 10:00:00
+---
+
 We can't (practically) build applications without databases. Databases are everywhere.
-Oftentimes, we run in database issues like slow running queries, high response times, sometimes database crash.
+Oftentimes, we run into database issues like slow running queries, high response times, sometimes database crash.
 
 While *understanding and optimizing slow queries queries* and *how databases internally work* is an expertise in itself, but before we state the database is slow or taking huge disk space, let's you can check the following:
 
