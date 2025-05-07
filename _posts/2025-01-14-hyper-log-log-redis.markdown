@@ -6,7 +6,7 @@ excerpt: "HyperLogLog is a probabilistic data structure in Redis. It's used as a
 date:   2025-01-14 10:00:00
 ---
 
-All you need to know about hashtag#HyperLogLog in hashtag#Redis.
+All you need to know about **HyperLogLog** in Redis.
 
 HyperLogLog is a probabilistic data structure in Redis. It is actually an algorithm for the count-distinct problem 👉🏼 [Wikepedia](https://en.wikipedia.org/wiki/HyperLogLog)
 
