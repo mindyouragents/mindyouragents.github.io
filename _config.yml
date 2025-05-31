@@ -1,9 +1,9 @@
 # Site settings
-title: rockpaperAI
+title: boring software
 email: 
-description: "Download space for everything in my brain. Opinionated views on software engineering, AI and other random stuff."
+description: "Download space for everything in my brain. Opinionated views on software engineering, AI and other boring stuff."
 baseurl: ""
-url: "https://rockpaperai.github.io"
+url: "https://boringfyi.github.io"
 linkedin_username: sauravdey
 github_username:  
 twitter_username:
