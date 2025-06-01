@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "Distribution of streaming media - Part 2"
-excerpt: "Distribution of streaming media is best done over HLS or MPEG-DASH. Modern browsers are equipped to handle media streams simply using HTML5 with media source extensions and can play HLS seamlessly."
+excerpt: "Distribution of streaming media is best done over HLS or MPEG-DASH. Modern browsers are equipped to handle media streams simply using HTML5 with media source extensions and can play HLS seamlessly. Interestingly almost all video infrastructure we know today are powered by FFmpeg."
 date:   2025-02-23 10:00:00
 ---
 
