@@ -2,8 +2,8 @@
 layout: post
 comments: false
 mathjax: true
-title:  "Is AI really making machines intelligent?"
-excerpt: "Or just another bubble?"
+title:  "Is machine learning really helping machines learn?"
+excerpt: "Or is this just another bubble?"
 date:   2025-04-02 10:00:00
 ---
 
@@ -17,4 +17,4 @@ $$
 y = f(x)
 $$
 
-Besides, any AI/ML-based use case that has seen the light of production, is 10-20% AI/ML and 80-90% elegant software engineering: APIs, security, rate limiting, data engineering, caching, monitoring, etc.
+Besides, any machine learning use case that has seen the light of production, is 10-20% ML and 80-90% elegant software engineering: APIs, security, rate limiting, data engineering, caching, monitoring, etc.
