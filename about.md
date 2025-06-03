@@ -8,7 +8,7 @@ comment: false
 
 Hi there!
 
-I am Saurav, a software engineer, interested in tech, AI, finance and a few other things.
+I am Saurav, a software engineer, interested in software engineering, AI and a few other things.
 I started this site to write about my thoughts, mostly on tech, things that I've been able to learn (I hope) working over a decade in this field, that may help others as well.
 
 Happy to learn, happy to share.
