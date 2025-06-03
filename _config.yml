@@ -1,7 +1,7 @@
 # Site settings
 title: Boring stuff
 email: 
-description: "Download space for everything in my brain. Opinionated views on software engineering, AI and other boring stuff."
+description: "Download space for everything in my brain. Opinionated views on AI, software engineering and other boring stuff."
 baseurl: ""
 url: "https://boringfyi.github.io"
 linkedin_username: sauravdey
