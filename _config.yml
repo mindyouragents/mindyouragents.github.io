@@ -1,9 +1,9 @@
 # Site settings
-title: The Boring Blog
+title: Boring stuff
 email: 
 description: "Download space for everything in my brain. Opinionated views on software engineering, AI and other boring stuff."
 baseurl: ""
-url: "https://theboringblog.github.io"
+url: "https://boringfyi.github.io"
 linkedin_username: sauravdey
 github_username:  
 twitter_username:
