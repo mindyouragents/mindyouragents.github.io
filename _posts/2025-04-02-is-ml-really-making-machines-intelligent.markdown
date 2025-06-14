@@ -3,11 +3,13 @@ layout: post
 comments: false
 mathjax: true
 title:  "Is machine learning really helping machines learn?"
-excerpt: "Or is this just another bubble?"
+excerpt: "Will machines take over the world? Will robots become more intelligent than humans? Are unicorns real? Or is this all just another bubble?"
 date:   2025-04-02 10:00:00
 ---
 
-Machines don't learn. 
+Will machines take over the world? Will robots become more intelligent than humans? Are unicorns real? Or is this all just another bubble?
+
+As simply this can be stated - Machines don't learn. 
 
 Don't get fooled by marketing.
 
