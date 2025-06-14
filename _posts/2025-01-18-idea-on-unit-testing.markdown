@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "Unit testing and beyond"
-excerpt: "Unit testing is an underrated skill. It's not optional, it's an integral component of quality software. Unit tests are developer's accountability. But don't limit to just unit tests."
+excerpt: "Unit testing is an underrated skill. It's not optional, it's an integral component of quality software. Unit tests are developer's accountability. But don't limit to just unit tests. Aim for developer driven integration testing."
 date:   2025-01-18 10:00:00
 ---
 

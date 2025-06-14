@@ -156,6 +156,15 @@ a:visited { color: #205caa; }
 /* Home styles */
 /* ----------------------------------------------------------*/
 
+
+.important {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  color: rebeccapurple;
+}
+
 .home h1 { margin-bottom: 25px; }
 
 .posts { list-style-type: none; }

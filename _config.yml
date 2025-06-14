@@ -1,7 +1,8 @@
 # Site settings
 title: mind your agents!
 email: 
-description: "On generative AI, agentic AI, unicorn AI 🦄 and all fancy things you've been hearing. Also on good ol' software engineering sometimes!"
+description: | 
+  On Generative AI, agentic AI 🤖 and software engineering in general. 
 baseurl: ""
 url: "https://mindyouragents.github.io"
 linkedin_username: sauravdey
