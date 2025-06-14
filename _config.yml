@@ -1,9 +1,9 @@
 # Site settings
-title: boring stuff
-email: 
-description: "Download space for everything in my brain. Opinionated views on AI, software engineering and other boring stuff."
+title: mind your agents!
+email: sauravfyi@gmail.com
+description: "AI, generative AI, agentic AI, unicorn AI 🦄 and all fancy things you've been hearing."
 baseurl: ""
-url: "https://boringftw.github.io"
+url: "https://mindyouragents.github.io"
 linkedin_username: sauravdey
 github_username:  
 twitter_username:
