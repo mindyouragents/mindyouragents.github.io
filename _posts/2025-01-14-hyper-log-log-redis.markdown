@@ -8,7 +8,7 @@ date:   2025-01-14 10:00:00
 
 All you need to know about **HyperLogLog** in Redis.
 
-HyperLogLog is a probabilistic data structure in Redis. It is actually an algorithm for the count-distinct problem 👉🏼 [Wikepedia](https://en.wikipedia.org/wiki/HyperLogLog)
+HyperLogLog is a probabilistic data structure in Redis. It is actually an algorithm for the count-distinct problem 👉🏼 [Wikipedia](https://en.wikipedia.org/wiki/HyperLogLog)
 
 It's used as a Redis data type but has nothing to do with logs; it estimates cardinality of a data set, which means, counting unique values in the collection.
 
