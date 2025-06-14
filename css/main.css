@@ -10,7 +10,8 @@ html, body { height: 100%; }
 
 body {
   font-family: "WDXL Lubrifont TC", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: medium;
   font-style: normal;
   background-color: #fdfdfd;
 }
