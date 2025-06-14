@@ -65,6 +65,12 @@ a:visited { color: #205caa; }
   z-index: 1;
 }
 
+.site-title-in-footer {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
 .site-nav {
   float: right;
   line-height: 56px;
