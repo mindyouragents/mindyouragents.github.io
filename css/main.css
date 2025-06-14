@@ -9,9 +9,12 @@
 html, body { height: 100%; }
 
 body {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Martian Mono", monospace;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   background-color: #fdfdfd;
 }
 
@@ -172,7 +175,7 @@ a:visited { color: #205caa; }
 .post-header { 
   margin: 10px 0 30px; 
   font-family: "Press Start 2P", system-ui;
-  font-weight: 200;
+  font-weight: 100;
   font-style: normal;
 }
 
