@@ -162,6 +162,12 @@ a:visited { color: #205caa; }
   line-height: 1;
 }
 
+.post-link {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
 .posts .post-date {
   display: block;
   font-size: 15px;
