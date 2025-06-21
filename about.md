@@ -6,16 +6,9 @@ includelink: false
 comment: false
 ---
 
-Hi there!
+Hi there! I am Saurav.
 
-I am Saurav, a software engineer, interested in software engineering, AI and a few other things.
-I started this site to write about my thoughts, mostly on tech, things that I've been able to learn (I hope) working over a decade in this field, that may help others as well.
-
-Happy to learn, happy to share.
+I am a product-led solution architect and software engineer, been an enterprise Java and Python developer, and Azure specialist. I'm now into Generative AI, identifying adding agentic capabilities to enterprise software (where they fit), driving use case development and discovering what works and what doesn't.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/sauravdey/).
 
-
-<img src="/assets/quote-1.jpg" width="50%"/>
-
-<img src="/assets/quote-2.jpg" width="50%"/>
