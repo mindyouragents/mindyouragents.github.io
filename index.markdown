@@ -39,4 +39,7 @@ In my opinion, crafting agentic software depends mainly on five maturity areas
 ✅ Add more agents, experiment and learn<br />
 <br />
 <br />
-⚠️ While this website is a work and progess and I will update the content continuously, don't forget to check the <a href="/ai-gems">💎 AI Gems</a> page and my <a href="/software">software engineering blogs</a>!
+⚠️ While this website is a work and progess and I will update the content continuously, and each of the items above is eventually going to become a post. 
+<br />
+<br />
+📣 Meanwhile don't forget to check the <a href="/ai-gems">💎 AI Gems</a> page and my <a href="/software">software engineering blogs</a>!
