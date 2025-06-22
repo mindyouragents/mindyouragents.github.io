@@ -159,9 +159,9 @@ a:visited { color: #205caa; }
 
 .important {
   font-family: "Press Start 2P", system-ui;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  font-size: 20px;
+  font-size: 22px;
   color: rebeccapurple;
 }
 

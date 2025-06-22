@@ -1,8 +1,7 @@
 # Site settings
-title: mind your agents!
+title: Mind Your Agents
 email: 
-description: | 
-  On Generative AI, agentic AI 🤖 and software engineering in general. 
+description: Opinionated views on agentic AI and software engineering. 
 baseurl: ""
 url: "https://mindyouragents.github.io"
 linkedin_username: sauravdey
@@ -18,3 +17,10 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
+include:
+ - _pages 
+
+collections:
+  software:
+    output: true
