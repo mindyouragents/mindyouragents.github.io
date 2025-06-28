@@ -3,17 +3,17 @@ layout: post
 comments: false
 mathjax: true
 title:  "Large Language Models and Bayes' Theorem"
-excerpt: "Large Language Models are predicting the next word. For a given sequence of words, LLMs are computing what could be the next most probable word. But how do we influence this process?"
+excerpt: "Large Language Models are predicting the next token. For a given sequence of tokens, LLMs are computing what could be the next most probable token. But how do we influence this process?"
 date:   2025-04-26 10:00:00
 ---
 
- Large Language Models are predicting the next word.
+Large Language Models are predicting the next token.
 
-For a given sequence of words, LLMs are computing what could be the next most probable word.
+For a given sequence of tokens, LLMs are computing what could be the next most probable token.
 
-Then, the "previous input sequence of words" plus "the predicted output word" becomes the next input..
+Then, the "previous input sequence of tokens" plus "the predicted output token" becomes the next input..
 
-..and same way, again the next most probable word is computed..
+..and same way, again the next most probable token is computed..
 
 ..and this repeats!
 
