@@ -46,3 +46,5 @@ This way, the prompt helps the LLM predict better, as the LLM is now trying to p
 Intriguing, isn't it?
 
 You will not look at prompts the same way.
+
+👋 [More on prompts...](/2025/06/22/prompt-engineering/)

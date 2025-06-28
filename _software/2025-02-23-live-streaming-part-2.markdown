@@ -55,4 +55,4 @@ The master playlist file contains details about the other media playlist files i
 <img src="/assets/live-streaming-part-2_3.jpeg" width="50%"> <br />
 
 <br>
-[Part one of this post](/software/2025-02-02-live-streaming-part-1/)
+[Part one of this post](/swe/2025-02-02-live-streaming-part-1/)
