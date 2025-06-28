@@ -7,12 +7,12 @@ date:   2025-06-22 10:00:00
 ---
 Getting meaningful responses from AI tools like ChatGPT isn't just about asking questions, it's about asking the right questions. Prompt engineering is the art of crafting inputs that unlock AI's full potential.
 
-### What Makes a Great Prompt?
+### What makes a great prompt?
 Think of prompts as detailed instructions for a highly capable but literal assistant. The more specific and structured your request, the better the output. This means considering tone, context, and clear constraints.
 
 Want better results? Try role-based prompting: "You are a marketing expert and create..." or use examples to show exactly what you need. Setting boundaries works too. For example, "explain this concept in simple terms under 100 words."
 
-### Why It Matters
+### Why it matters?
 AI models don't truly "understand" like humans do. They recognize patterns and calculate probabilities based on training data. A vague prompt leads to generic responses, while a well-crafted one delivers precisely what you need. No model retraining required for that.
 
 ### Popular prompt patters:
@@ -58,10 +58,10 @@ What is TIGER?
 
 Ever notice how AI sometimes jumps to conclusions without showing its work? Chain of Thought (CoT) prompting fixes that by teaching AI to think out loud, step by step.
 
-### Teaching AI to Think Like Humans (Simulating "thinking")
+### Teaching AI to think like humans (Simulating "thinking")
 Instead of demanding instant answers to complex problems, CoT prompting mirrors how we naturally solve challenges, breaking them into manageable pieces. This technique transforms AI from a magic 8-ball into a thoughtful problem-solver that shows its reasoning process.
 
-### Two Powerful Approaches
+### Two powerful approaches
 You can guide AI thinking in two ways. Few-shot CoT involves providing examples with detailed reasoning steps. Zero-shot CoT is even simpler, Just add "Let's think step by step" to your prompt.
 
 See the Difference:
@@ -82,19 +82,19 @@ Answer: The train travels at 60 km/h for 2 hours.
  The train travels 120 km.
 ```
 
-### Why It Works
+### Why it works?
 CoT prompting shines in arithmetic, logic puzzles, and reasoning tasks. By forcing the AI to show its work, you catch errors early and build trust in the results. The structured approach dramatically improves accuracy on complex problems, turning AI into a reliable thinking partner.
 
 <span class="important">ReAct prompting</span>
 
-### When AI Thinks AND Acts
+### When AI thinks AND acts...
 
 What if AI could not only think through problems but also take action to find answers? ReAct (Reasoning and Acting) prompting makes this possible by combining internal reasoning with real-world interactions.
 
-### Beyond Pure Thinking
+### Beyond pure thinking
 Traditional AI prompting relies on the model's existing knowledge to solve problems. ReAct takes it further by creating a dynamic loop where AI alternates between thinking about the problem and taking concrete actions-like searching the web, running calculations, or accessing databases.
 
-### The Think-Act-Observe Cycle
+### The Think-Act-Observe cycle
 ReAct follows a powerful three-step pattern:
 
 ```text
@@ -115,7 +115,7 @@ Thought: Now I have the answer based on current information.
 Answer: 26%.
 ```
 
-### Why It Matters
+### Why it matters?
 ReAct prompting reduces AI hallucinations by grounding responses in real data. It creates transparency and you can see exactly how AI reached its conclusion. This approach powers advanced AI agents that can interact with tools, making them incredibly valuable for complex, multi-step tasks requiring current information.
 
 <span class="important">Tree of Thoughts prompting</span>
