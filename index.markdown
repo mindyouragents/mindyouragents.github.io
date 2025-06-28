@@ -20,7 +20,7 @@ In my opinion, crafting agentic software depends mainly on five maturity areas..
 <br />
 ✅ Understanding the problem statement and how agents can help<br />
 ✅ Creating required agent personas with clear objectives<br />
-✅ <a href="/2025/04/26/llms-and-bayes-theorem/">Write clever prompts</a> using prompt engineering techniques<br />
+✅ <a href="/2025/04/26/llms-and-bayes-theorem/">Write clever prompts</a> using <a href="/2025/06/22/prompt-engineering/">prompt engineering techniques</a><br />
 ✅ Developing simple and effective agentic workflows<br />
 ✅ Retrospect, and own what you build (You build it, you run it)
 <br />
