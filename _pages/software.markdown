@@ -1,6 +1,6 @@
 ---
 layout: page
-title: On Software Engineering
+title: Software Engineering
 permalink: /swe/
 includelink: true
 comment: false

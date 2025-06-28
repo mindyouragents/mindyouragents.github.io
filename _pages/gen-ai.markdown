@@ -1,6 +1,6 @@
 ---
 layout: page
-title: On GenAI
+title: GenAI
 permalink: /gen-ai/
 includelink: true
 comment: false
