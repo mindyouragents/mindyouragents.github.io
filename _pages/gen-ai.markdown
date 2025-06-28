@@ -1,7 +1,7 @@
 ---
 layout: page
-title: GenAI
-permalink: /gen-ai/
+title: Blogs
+permalink: /blogs/
 includelink: true
 comment: false
 ---

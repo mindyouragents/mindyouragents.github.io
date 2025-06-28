@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "Prompt engineering"
-excerpt: "To a programmer, tensors are arrays. To a mathematician, tensors are matrices. To a physicist, tensors are properties. So if we may draw, how would tensors look really?"
+excerpt: "Prompt engineering is the practice of crafting clear, specific instructions to get the best possible responses from AI models. Effective prompts typically include detailed context, specific examples of desired outputs, and clear formatting requirements to guide the AI's response. "
 date:   2025-06-22 10:00:00
 ---
 Getting meaningful responses from AI tools like ChatGPT isn't just about asking questions, it's about asking the right questions. Prompt engineering is the art of crafting inputs that unlock AI's full potential.

@@ -13,4 +13,4 @@ What could be the bottlenecks? <br/>
 <img src="/assets/live-streaming-part-1.png" width="100%">
 
 <br />
-[Part two of this post](/swe/2025-02-23-live-streaming-part-2/)
+[Part two of this post](/2025/02/23/live-streaming-part-2/)
