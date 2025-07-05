@@ -38,7 +38,7 @@ When you write a prompt, "You are a helpful assistant who provides information o
 Mathematically, what you're asking is:
 
 $$
-P(Y|\text{You are a helpful assistant who provides information on X}) = \text{???}
+P(Y|\text{You are a helpful assistant who provides information on X}) = \text{?}
 $$
 
 This way, the prompt helps the LLM predict better, as the LLM is now trying to predict something based on something that has already happened. Therefore, the "most likely output" (event A), is influenced by a preset context (event B), which helps the LLM to compute the probability (i.e., likelihood of the output) in a somewhat "guided" way.

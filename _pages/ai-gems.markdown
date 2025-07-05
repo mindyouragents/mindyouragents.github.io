@@ -1,12 +1,14 @@
 ---
 layout: page
-title: 💎 AI Gems
+title: 💎AI Gems
 permalink: /ai-gems/
 includelink: true
 comments: false
 ---
 
 I am collecting some awesome AI, math and related content from blogs, websites, YouTube, etc!
+
+[Natural Language Processing and LLMs by SerranoAcademy](https://www.youtube.com/watch?v=OxCpWwDCDFQ&list=PLs8w1Cdi-zvYskDS2icIItfZgxclApVLv)
 
 [Generative AI 2025 - IIT Madras & Prathosh AP](https://www.youtube.com/playlist?list=PLZ2ps__7DhBa5xCmncgH7kPqLqMBq7xlu)
 
