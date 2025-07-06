@@ -322,7 +322,7 @@ def get_room_price_by_type(room_type: str):
 
 ```
 
-✅ Note the `@mcp.tool()` decorator.
+✅ Note the `@mcp.tool()` decorator. <br />
 ✅ Every tool function must begin with docstrings. This helps the LLM understand which tool does what! *Very important!*
 
 Creating the server:
