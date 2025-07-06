@@ -457,19 +457,21 @@ Either way, now when you ask Claude question about the hotel, it will use one of
 
 Asking about the hotel. Note the list of MCP tools available to Claude desktop app now:
 
-![image](https://github.com/user-attachments/assets/4557e2ad-9e16-40af-a18f-fba38f462d0b)
+<img src="/assets/claude-mcp-1.jpg" width="100%"> <br />
 
 Asking about list of available rooms:
 
-![image](https://github.com/user-attachments/assets/4bb91c93-51f2-4484-9578-de2581aea60b)
+<img src="/assets/claude-mcp-2.jpg" width="100%"> <br />
 
 Asking about amneties and booking a suite room:
 
-![image](https://github.com/user-attachments/assets/3bff9bb9-17af-4ea4-a784-2c88d1b47fcd)
-![image](https://github.com/user-attachments/assets/909e87d5-6a19-4edb-9908-1fc3fa975e68)
-![image](https://github.com/user-attachments/assets/c8214c2e-286a-423d-996c-cbc15c0b3d91)
+<img src="/assets/claude-mcp-3.jpg" width="100%"> <br />
+<img src="/assets/claude-mcp-4.jpg" width="100%"> <br />
+<img src="/assets/claude-mcp-5.jpg" width="100%"> <br />
 
 Next time when I ask for available rooms, the booked room 301 is excluded.
 
-![image](https://github.com/user-attachments/assets/f541a566-dc0d-4d60-a190-72bc70120d48)
+<img src="/assets/claude-mcp-6.jpg" width="100%"> <br />
 
+<br />
+<br />
