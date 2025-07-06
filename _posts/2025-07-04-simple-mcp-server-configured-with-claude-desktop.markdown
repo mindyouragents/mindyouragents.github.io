@@ -463,12 +463,10 @@ Asking about list of available rooms:
 
 ![image](https://github.com/user-attachments/assets/4bb91c93-51f2-4484-9578-de2581aea60b)
 
-Asking about amneties:
+Asking about amneties and booking a suite room:
 
+![image](https://github.com/user-attachments/assets/3bff9bb9-17af-4ea4-a784-2c88d1b47fcd)
 ![image](https://github.com/user-attachments/assets/909e87d5-6a19-4edb-9908-1fc3fa975e68)
-
-Booking a suite room:
-
 ![image](https://github.com/user-attachments/assets/c8214c2e-286a-423d-996c-cbc15c0b3d91)
 
 Next time when I ask for available rooms, the booked room 301 is excluded.
