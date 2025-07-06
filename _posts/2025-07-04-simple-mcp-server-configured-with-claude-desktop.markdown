@@ -8,13 +8,13 @@ date:   2025-07-04 10:00:00
 
 [All about MCP](https://modelcontextprotocol.io/introduction). 
 
-In this post I show how to create a simple MCP server and connect it with the Claude Desktop App (MCP Client). [Download here](https://claude.ai/download).
+In this post I show how to create a simple MCP server and connect it with the Claude Desktop App (MCP client). [Download here](https://claude.ai/download).
 
-Let's assume we are developing a conversation interface for a hotel, where visitors can have a conversation with an chatbot and book a hotel. Let's also assume the chatbot is Claude Sonnet or any of Anthropic's LLMs, served via this desktop app, which is our MCP Client as well.
+Let's assume we are developing a conversation interface for a hotel, where visitors can have a conversation with an chatbot and book a hotel. Let's also assume the chatbot is Claude Sonnet or any of Anthropic's LLMs, served via this desktop app, which is our MCP client as well.
 
 However, the LLM doesn't know anything about the hotel's internal processes and business information, like what rooms the hotel has, prices, amenities, etc. 
 
-But what the hotel has, is its own enterprise software (like a reservation management system), which does all of that. Our job is to expose chosen functionalities as `tools` for the LLM, that the MCP Client can help the LLM use, and facilitate the conversation with the visitors.
+But what the hotel has, is its own enterprise software (like a reservation management system), which does all of that. Our job is to expose chosen functionalities as `tools` for the LLM, that the MCP client can help the LLM use, and facilitate the conversation with the visitors.
 
 ### ✅ Setup
 
@@ -415,7 +415,11 @@ Point `args` to the absolute path of the `main.py` file.
 
 <hr />
 
-Now let's change `mcp.run(transport="stdio")` in `main.py` to `mcp.run(transport="streamable-http")`.
+### ⚠️ However, it's very unlikely that your MCP server and MCP client will run on the same host.
+
+You will ideally have the MCP server running on a different host across the network.
+
+Therefore, let's change `mcp.run(transport="stdio")` in `main.py` to `mcp.run(transport="streamable-http")`.
 
 This indicates that your Claude Desktop App now needs to configure a remote MCP server over HTTP, that is running somewhere accross the internet.
 
