@@ -76,4 +76,4 @@ Your AI superpowers are only as good as your data is. Most enterprises have data
 ⚠️ While this website is a work and progess and I will update the content continuously, and each of the items above is eventually going to become a post. 
 <br />
 <br />
-📣 Meanwhile don't forget to check the <a href="/ai-gems">💎 AI Gems</a> page and my <a href="/blogs">blog</a> posts on generative AI and software engineering in general!
+📣 Meanwhile don't forget to check the <a href="/ai-gems">💎AI Gems</a> page and my <a href="/blogs">blog</a> posts on generative AI and software engineering in general!
