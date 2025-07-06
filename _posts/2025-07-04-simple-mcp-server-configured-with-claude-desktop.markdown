@@ -8,12 +8,13 @@ date:   2025-07-04 10:00:00
 
 [All about MCP](https://modelcontextprotocol.io/introduction). 
 
-In this post I show how to create a simple MCP server and connect it with the Claude Desktop App. [Download here](https://claude.ai/download).
+In this post I show how to create a simple MCP server and connect it with the Claude Desktop App (MCP Client). [Download here](https://claude.ai/download).
 
-Let's assume we are developing a conversation interface for a hotel, where visitors can have a conversation with an chatbot and book a hotel. Let's also assume the chatbot is Claude. 
-However, Claude doesn't know anything about the hotel's internal processes and business information, like what rooms the hotel has, prices, amnities, etc. 
+Let's assume we are developing a conversation interface for a hotel, where visitors can have a conversation with an chatbot and book a hotel. Let's also assume the chatbot is Claude Sonnet or any of Anthropic's LLMs, served via this desktop app, which is our MCP Client as well.
 
-But what the hotel has, is its own enterprise software (like a reservation management system), which does all of that. Our job is to expose chosen functionalities as `tools` for Clause, that Claude can use to facilitate the conversation with the visitors.
+However, the LLM doesn't know anything about the hotel's internal processes and business information, like what rooms the hotel has, prices, amenities, etc. 
+
+But what the hotel has, is its own enterprise software (like a reservation management system), which does all of that. Our job is to expose chosen functionalities as `tools` for the LLM, that the MCP Client can help the LLM use, and facilitate the conversation with the visitors.
 
 ### ✅ Setup
 
@@ -322,11 +323,12 @@ def get_room_price_by_type(room_type: str):
 ```
 
 ✅ Note the `@mcp.tool()` decorator.
+✅ Every tool function must begin with docstrings. This helps the LLM understand which tool does what! *Very important!*
 
 Creating the server:
 
 ```python
-# File: server.oy
+# File: server.py
 
 from mcp.server.fastmcp import FastMCP
 
@@ -455,15 +457,17 @@ As explained, this is the configuration you need when the MCP server is running 
 
 Either way, now when you ask Claude question about the hotel, it will use one of the MCP tools to find and provide an answer.
 
-Asking about the hotel. Note the list of MCP tools available to Claude desktop app now:
+Now I'm asking about the hotel. Note the list of MCP tools available to Claude desktop app now:
 
 <img src="/assets/claude-mcp-1.jpg" width="100%"> <br />
 
-Asking about list of available rooms:
+Note for each answer, the app is showing which tool it used to figure out the answer, based on the docstring we wrote earlier.
+
+Then asking about list of available rooms:
 
 <img src="/assets/claude-mcp-2.jpg" width="100%"> <br />
 
-Asking about amneties and booking a suite room:
+Asking about amenities and booking a suite room:
 
 <img src="/assets/claude-mcp-3.jpg" width="100%"> <br />
 <img src="/assets/claude-mcp-4.jpg" width="100%"> <br />
