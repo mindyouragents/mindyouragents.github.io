@@ -59,7 +59,7 @@ I followed this three step process myself.
 ✅ Build a system with two agents that interact with each other<br />
 ✅ Learn structured output and guardrails<br />
 ✅ Learn agentic workflow patterns and orchestration<br />
-✅ Add more agents and experiment; and learn <a href="#">Model Context Protocol</a><br />
+✅ Add more agents and experiment; and learn <a href="/2025/07/04/simple-mcp-server-configured-with-claude-desktop/">Model Context Protocol</a><br />
 ✅ Finally, learn logging, monitoring, LLMOps and deployment<br />
 <br />
 <br />
