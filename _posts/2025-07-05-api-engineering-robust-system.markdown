@@ -8,6 +8,9 @@ date:   2025-07-05 10:00:00
 
 Modern software are built on API-first policy. Without APIs your product is isolated in its own boundaries. In this post I disucss essential things you need to engineer your APIs elegantly and build robust systems.
 
+<br />
+<span class="important">Well-crafted APIs</span>
+<br />
 
 - Check this post on [A survival kit to beat APIs interview](https://newsletter.systemdesignclassroom.com/p/a-survival-kit-to-beat-apis-interview) by [Raul Junco](https://substack.com/@rauljuncov). Though this article is written in an "interview prep" way, but it's a masterpiece on elegant API design and engineering, covering nearly all the important topics.
 
@@ -23,6 +26,9 @@ Modern software are built on API-first policy. Without APIs your product is isol
     - Ways to make your APIs faster using caching on the client, server, or CDN, distributed caching, query optimization, connection pooling, data serialization and compressiong
     - Documenting APIs using OpenAPI (Swagger) including endpoint descriptions, req-res examples, query parameters, headers, error codes, etc
 
+<br />
+<span class="important">Secure your APIs</span>
+<br />
 
 - Next, this post on [Siz strategies to build secure APIs](https://newsletter.systemdesigncodex.com/p/6-strategies-to-build-secure-apis) by [Saurabh Dashora](https://substack.com/@saurabhdashora). Must read! Describes six strategies that help you bullet-proof your APIs:
 
@@ -33,6 +39,9 @@ Modern software are built on API-first policy. Without APIs your product is isol
     - Role-based access control (RBAC)
     - Monitoring and logging
 
+<br />
+<span class="important">Manage transactions</span>
+<br />
 
 - We can't imagine a software system that doesn't use a database.. and with database, comes the responsibility to manage data and transactions. Another article by [Raul Junco](https://substack.com/@rauljuncov) on [Transaction Isolation](https://newsletter.systemdesignclassroom.com/p/transaction-isolation-and-read-and-write-anomalies?r=1m1f9z&utm_campaign=post&utm_medium=web).
 
@@ -42,6 +51,9 @@ Modern software are built on API-first policy. Without APIs your product is isol
     - Performance trade-offs
     - Choosing isolation levels
 
+<br />
+<span class="important">Well maintained caching</span>
+<br />
 
 - Improving application and API performance need caching. We need to cache data at many levels. This can quickly start becoming an overhead as we cache more and more data. Wisdom says, you cache what is frequently required, and remove anything that's not required often. However, as scenarios call for it, there could be needs for different strategies. Read on [Seven cache eviction strategies](https://blog.algomaster.io/p/7-cache-eviction-strategies?r=1m1f9z&utm_campaign=post&utm_medium=web) by [Ashish Pratap Singh](https://substack.com/@ashishps).
 
@@ -52,6 +64,10 @@ Modern software are built on API-first policy. Without APIs your product is isol
     - Most recently used (MRU)
     - Time to live (TTL)
     - Two-tiered caching  
+
+<br />
+<span class="important">Deal with entropy</span>
+<br />
 
 - Like any other machine, software (an intangible machine with moving parts) quality and maintainability degrade overtime. I asked ChatGPT for a very short summary on *Software Entropy*:
 
@@ -64,5 +80,6 @@ Modern software are built on API-first policy. Without APIs your product is isol
     - Stay flexible
     - Embrace entropy
 
+<br />
 
 The software industry has many people of wisdom who write technical articles like above. Thanks to all the authors. I try to collect such well crafted knowledge articles and document them on this blog.
