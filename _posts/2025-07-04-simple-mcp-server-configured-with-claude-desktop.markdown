@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "Building an MCP server and configuring with the Claude desktop app"
-excerpt: "MCP is an open standard that promise to glue LLMs with tools and services. Often called the USB-C of AI applications. LLMs frequently need to integrate with data and tools, and MCP standardized these interactions."
+excerpt: "MCP is an open standard that promises to glue LLMs with tools and services, often called the USB-C of AI applications. LLMs frequently need to integrate with data and tools, and MCP standardizes these interactions."
 date:   2025-07-04 10:00:00
 ---
 
