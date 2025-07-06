@@ -426,7 +426,7 @@ uv run .\main.py
 
 INFO:     Started server process [15164]
 INFO:     Waiting for application startup.
-[07/06/25 09:25:26] INFO     StreamableHTTP session manager started  
+INFO      StreamableHTTP session manager started  
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 ...
@@ -452,4 +452,26 @@ As explained, this is the configuration you need when the MCP server is running 
 ```
 
 ⚠️ After config changes, exit the Claude desktop app from `File` ➡️ `Exit` and start it again.
+
+Either way, now when you ask Claude question about the hotel, it will use one of the MCP tools to find and provide an answer.
+
+Asking about the hotel. Note the list of MCP tools available to Claude desktop app now:
+
+![image](https://github.com/user-attachments/assets/4557e2ad-9e16-40af-a18f-fba38f462d0b)
+
+Asking about list of available rooms:
+
+![image](https://github.com/user-attachments/assets/4bb91c93-51f2-4484-9578-de2581aea60b)
+
+Asking about amneties:
+
+![image](https://github.com/user-attachments/assets/909e87d5-6a19-4edb-9908-1fc3fa975e68)
+
+Booking a suite room:
+
+![image](https://github.com/user-attachments/assets/c8214c2e-286a-423d-996c-cbc15c0b3d91)
+
+Next time when I ask for available rooms, the booked room 301 is excluded.
+
+![image](https://github.com/user-attachments/assets/f541a566-dc0d-4d60-a190-72bc70120d48)
 
