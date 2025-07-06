@@ -12,7 +12,7 @@ Modern software are built on API-first policy. Without APIs your product is isol
 <span class="important">Well-crafted APIs</span>
 <br />
 
-- Check this post on [A survival kit to beat APIs interview](https://newsletter.systemdesignclassroom.com/p/a-survival-kit-to-beat-apis-interview) by [Raul Junco](https://substack.com/@rauljuncov). Though this article is written in an "interview prep" way, but it's a masterpiece on elegant API design and engineering, covering nearly all the important topics.
+✨ Check this post on [A survival kit to beat APIs interview](https://newsletter.systemdesignclassroom.com/p/a-survival-kit-to-beat-apis-interview) by [Raul Junco](https://substack.com/@rauljuncov). Though this article is written in an "interview prep" way, but it's a masterpiece on elegant API design and engineering, covering nearly all the important topics.
 <br />
 
 ✅ CRUD operations and HTTP verb <br />
@@ -31,7 +31,7 @@ Modern software are built on API-first policy. Without APIs your product is isol
 <span class="important">Secure your APIs</span>
 <br />
 
-- Next, this post on [Siz strategies to build secure APIs](https://newsletter.systemdesigncodex.com/p/6-strategies-to-build-secure-apis) by [Saurabh Dashora](https://substack.com/@saurabhdashora). Must read! Describes six strategies that help you bullet-proof your APIs:
+✨ Next, this post on [Siz strategies to build secure APIs](https://newsletter.systemdesigncodex.com/p/6-strategies-to-build-secure-apis) by [Saurabh Dashora](https://substack.com/@saurabhdashora). Must read! Describes six strategies that help you bullet-proof your APIs:
 <br />
 
 ✅ Using HTTPs <br />
@@ -45,7 +45,7 @@ Modern software are built on API-first policy. Without APIs your product is isol
 <span class="important">Manage transactions</span>
 <br />
 
-- We can't imagine a software system that doesn't use a database.. and with database, comes the responsibility to manage data and transactions. Another article by [Raul Junco](https://substack.com/@rauljuncov) on [Transaction Isolation](https://newsletter.systemdesignclassroom.com/p/transaction-isolation-and-read-and-write-anomalies?r=1m1f9z&utm_campaign=post&utm_medium=web).
+✨ We can't imagine a software system that doesn't use a database.. and with database, comes the responsibility to manage data and transactions. Another article by [Raul Junco](https://substack.com/@rauljuncov) on [Transaction Isolation](https://newsletter.systemdesignclassroom.com/p/transaction-isolation-and-read-and-write-anomalies?r=1m1f9z&utm_campaign=post&utm_medium=web).
 <br />
 
 ✅ What transactions are <br />
@@ -58,7 +58,7 @@ Modern software are built on API-first policy. Without APIs your product is isol
 <span class="important">Well maintained caching</span>
 <br />
 
-- Improving application and API performance need caching. We need to cache data at many levels. This can quickly start becoming an overhead as we cache more and more data. Wisdom says, you cache what is frequently required, and remove anything that's not required often. However, as scenarios call for it, there could be needs for different strategies. Read on [Seven cache eviction strategies](https://blog.algomaster.io/p/7-cache-eviction-strategies?r=1m1f9z&utm_campaign=post&utm_medium=web) by [Ashish Pratap Singh](https://substack.com/@ashishps).
+✨ Improving application and API performance need caching. We need to cache data at many levels. This can quickly start becoming an overhead as we cache more and more data. Wisdom says, you cache what is frequently required, and remove anything that's not required often. However, as scenarios call for it, there could be needs for different strategies. Read on [Seven cache eviction strategies](https://blog.algomaster.io/p/7-cache-eviction-strategies?r=1m1f9z&utm_campaign=post&utm_medium=web) by [Ashish Pratap Singh](https://substack.com/@ashishps).
 <br />
 
 ✅ Least recently used (LRU) <br />
@@ -73,11 +73,11 @@ Modern software are built on API-first policy. Without APIs your product is isol
 <span class="important">Deal with entropy</span>
 <br />
 
-- Like any other machine, software (an intangible machine with moving parts) quality and maintainability degrade overtime. I asked ChatGPT for a very short summary on *Software Entropy*:
+✨ Like any other machine, software (an intangible machine with moving parts) quality and maintainability degrade overtime. I asked ChatGPT for a very short summary on *Software Entropy*:
 
-    > In software, entropy refers to the increasing disorder, complexity, or unpredictability within a system over time. In software design, high entropy means the code becomes harder to understand, maintain, or extend, often due to quick fixes, poor documentation, or lack of refactoring. This leads to software rot and reduced reliability. 
+> In software, entropy refers to the increasing disorder, complexity, or unpredictability within a system over time. In software design, high entropy means the code becomes harder to understand, maintain, or extend, often due to quick fixes, poor documentation, or lack of refactoring. This leads to software rot and reduced reliability. 
 
-    Read on how to [Embrace Software Entropy](https://thetshaped.dev/p/embrace-software-entropy-imperfect-code-flexibility-maintainability) by [Petar Ivanov](https://substack.com/@petarivanovv9).
+✅ Read on how to [Embrace Software Entropy](https://thetshaped.dev/p/embrace-software-entropy-imperfect-code-flexibility-maintainability) by [Petar Ivanov](https://substack.com/@petarivanovv9).
 <br />
 
 ✅ Accept that change is inevitable <br />
