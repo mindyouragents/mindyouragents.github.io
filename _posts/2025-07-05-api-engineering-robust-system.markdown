@@ -2,11 +2,11 @@
 layout: post
 comments: false
 title:  "API engineering and building robust systems"
-excerpt: "Modern software are built on API-first policy. Without APIs your product is isolated in its own boundaries. In this post I disucss essential things you need to engineer your APIs elegantly and build robust systems."
+excerpt: "Modern software are usually built API-first. Without APIs your product is isolated within its own boundaries. In this post I have collected essential things you need to engineer your APIs elegantly and build robust systems."
 date:   2025-07-05 10:00:00
 ---
 
-Modern software are built on API-first policy. Without APIs your product is isolated in its own boundaries. In this post I disucss essential things you need to engineer your APIs elegantly and build robust systems.
+Modern software are usually built API-first. Without APIs your product is isolated within its own boundaries. In this post I collect essential things you need to engineer your APIs elegantly and build robust systems.
 
 <br />
 <span class="important">Well-crafted APIs</span>
