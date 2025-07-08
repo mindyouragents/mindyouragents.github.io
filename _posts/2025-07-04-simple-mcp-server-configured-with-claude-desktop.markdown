@@ -10,7 +10,7 @@ date:   2025-07-04 10:00:00
 
 In this post I show how to create a simple MCP server and connect it with the Claude Desktop App (MCP client). [Download here](https://claude.ai/download).
 
-Let's assume we are developing a conversation interface for a hotel booking app, where visitors can have a conversation with an chatbot and book a room. Let's also assume the chatbot is Claude Sonnet or any of Anthropic's LLMs, served via this Claude desktop app, which is our MCP client as well.
+Let's assume we are developing a conversation interface for a hotel booking app, where visitors can have a conversation with a chatbot and book a room. Let's also assume the chatbot is Claude Sonnet or any of Anthropic's LLMs, served via this Claude desktop app, which is our MCP client as well.
 
 However, the LLM doesn't know anything about the hotel's internal processes and business information, like what rooms the hotel has, prices, amenities, etc. 
 
