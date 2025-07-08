@@ -395,7 +395,7 @@ On Windows, this file lives in `C:\Users\<username>\AppData\Roaming\Claude` dire
 
 ### ✅ Claude config for `stdio`
 
-This is when the MCP server is running on the same machine as the Claude client.
+This is when the MCP server is running on the same machine as the MCP client.
 
 Point `command` to the `python` in your `.venv`. On powershell you get the python path using command `(Get-Command python).Path`, assuming your `.venv` is active.
 Point `args` to the absolute path of the `main.py` file.
@@ -421,9 +421,9 @@ You will ideally have the MCP server running on a different host across the netw
 
 Therefore, let's change `mcp.run(transport="stdio")` in `main.py` to `mcp.run(transport="streamable-http")`.
 
-This indicates that your Claude Desktop App now needs to configure a remote MCP server over HTTP, that is running somewhere accross the internet.
+This indicates that your Claude Desktop App (MCP client) now needs to find the remote MCP server over HTTP, that is running somewhere accross the internet.
 
-*Here the MCP server will still run on 127.0.0.1, but you have remote server you can deploy it there and try with the remote IP address.*
+*Here the MCP server runs on 127.0.0.1, but if you have a remote server you can deploy it there and try with the remote IP address.*
 
 After making the change in `main.py`, start the MCP server as:
 
@@ -459,19 +459,19 @@ As explained, this is the configuration you need when the MCP server is running 
 
 ⚠️ After config changes, exit the Claude desktop app from `File` ➡️ `Exit` and start it again.
 
-Either way, now when you ask Claude question about the hotel, it will use one of the MCP tools to find and provide an answer.
+Either way, now when you ask the Sonnet LLM questions about the hotel, it will use one of the MCP tools available to it via the MCP client to find and provide you an answer.
 
-Now I'm asking about the hotel. Note the list of MCP tools available to Claude desktop app now:
+Let's ask a question about the hotel, also note the list of MCP tools available to Claude desktop app now:
 
 <img src="/assets/claude-mcp-1.jpg" width="100%"> <br />
 
-Note for each answer, the app is showing which tool it used to figure out the answer, based on the docstring we wrote earlier.
+Note for each answer, the app is showing which tool it used to figure out the answer, based on the docstrings we wrote earlier.
 
-Then asking about list of available rooms:
+Then I'm asking about the list of available rooms:
 
 <img src="/assets/claude-mcp-2.jpg" width="100%"> <br />
 
-Asking about amenities and booking a suite room:
+Now I'm asking about amenities and booking a suite room:
 
 <img src="/assets/claude-mcp-3.jpg" width="100%"> <br />
 <img src="/assets/claude-mcp-4.jpg" width="100%"> <br />
@@ -481,5 +481,4 @@ Next time when I ask for available rooms, the booked room 301 is excluded.
 
 <img src="/assets/claude-mcp-6.jpg" width="100%"> <br />
 
-<br />
 <br />
