@@ -3,7 +3,7 @@ layout: default
 ---
 
 I am posting content here that will help you get idea on building agentic software systems.
-But before you proceed, you need to remember...
+Before you proceed, you need to remember...
 <br />
 <br />
 <span class="important">Machines don't learn or think like humans do! It's all math.</span><br />
