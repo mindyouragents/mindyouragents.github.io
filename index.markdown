@@ -14,7 +14,7 @@ In my opinion, crafting agentic software depends mainly on five maturity areas..
 <br />
 <br />
 1️⃣ Complexity of the problem and how agents can help (will it really benefit with such a solution?)<br />
-2️⃣ The level of accuracy and human intervention required (beware, LLMs are predictive software!)<br />
+2️⃣ The level of accuracy and human intervention required (beware, LLMs are probabilistic software!)<br />
 3️⃣ Agent personas with clear objectives: <a href="/2025/04/26/llms-and-bayes-theorem/">Write clever prompts</a> using <a href="/2025/06/22/prompt-engineering/">prompt engineering techniques</a><br />
 4️⃣ Thinking simple workflows: Restrospecting the output at every step, understand what can improve accuracy<br />
 5️⃣ Implications on security, privacy and compliance
