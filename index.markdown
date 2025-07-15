@@ -6,7 +6,8 @@ I am posting content here that will help you get idea on building agentic softwa
 But before you proceed, you need to remember...
 <br />
 <br />
-<span class="important">Machines don't learn or think like humans do! It's all math.</span><a href="/2025/04/02/is-ml-really-making-machines-intelligent/">Know more...</a>
+<span class="important">Machines don't learn or think like humans do! It's all math.</span><br />
+<a href="/2025/04/02/is-ml-really-making-machines-intelligent/">Know more...</a>
 <br />
 
 In my opinion, crafting agentic software depends mainly on five maturity areas...
