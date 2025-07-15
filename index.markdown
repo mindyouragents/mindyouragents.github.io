@@ -62,6 +62,8 @@ I followed this three step process myself.
 <br />
 Your AI superpowers are only as good as your data is. Most enterprises have data that is highly unorganized and a mess.
 <a href="#">Why do I need to look at my data?</a>
+
+<br />
 <hr />
 <br />
 ⚠️ While this website is a work and progess and I will update the content continuously, and each of the items above is eventually going to become a post. 
