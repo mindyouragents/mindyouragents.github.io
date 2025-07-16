@@ -44,7 +44,7 @@ I followed this three step process myself.
 ✅ Learn vector databases, tokens, text embedding, chunks, etc<br />
 ✅ Build a RAG workflow, connect it with the chatbot, add memory<br />
 ✅ Learn different RAG techniques and tool usage with LLMs<br />
-✅ Understand the economics of cloud computing<br />
+✅ Understand the economics of cloud computing
 <br />
 <br />
 <span class="important">Step 3: Develop agents</span>
@@ -54,7 +54,7 @@ I followed this three step process myself.
 ✅ Learn structured inputs, structured outputs and guardrails<br />
 ✅ Learn agentic workflow patterns and orchestration, add multiple agents<br />
 ✅ Provide tools to the agents, learn <a href="/2025/07/04/simple-mcp-server-configured-with-claude-desktop/">Model Context Protocol</a><br />
-✅ Finally, learn logging, monitoring, LLMOps and deployment<br />
+✅ Finally, learn logging, monitoring, LLMOps and deployment
 <br />
 <br />
 <span class="important">Btw, did you look at your data?</span> 
