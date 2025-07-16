@@ -1,31 +1,5 @@
-# Setup and getting started
+## Welcome to Mind Your Agents!
 
-This is my blog, uses [Jekyll](http://jekyllrb.com/). 
+Static software is giving way to dynamic, agent-powered systems that can reason through uncertainty, self-correct, and collaborate; not just compute. Mind Your Agents is where I write about tools, technologies, share insights and my opinionated views on gentic software development and software engineering in general.
 
-On Windows, install WSL and Ubuntu 22.04 or higher and continue...
-
-## Installing C, C++ and CMake
-```bash
-sudo apt-get install gcc
-sudo apt-get install g++
-sudo apt-get install make
-```
-
-## Installing Ruby and gem
-```bash
-sudo apt-get install ruby-full
-```
-
-## Installing jekyll using gem
-```bash
-sudo gem install bundler Jekyll
-```
-
-## Create site, step by step
-[Jekyll setup and getting started](https://jekyllrb.com/docs/step-by-step/01-setup/)
-
-## Building and running site
-```bash
-bundle exec jekyll serve --livereload
-```
-
+This website and blog is created using [Jekyll](http://jekyllrb.com/) and hosted on GitHub pages. 
