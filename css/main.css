@@ -9,12 +9,12 @@
 html, body { height: 100%; }
 
 body {
-  font-family: "Martian Mono", monospace;
-  font-optical-sizing: auto;
+/*   font-family: "Martian Mono", monospace;
+     font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 100; */
   background-color: #fdfdfd;
 }
 
@@ -56,7 +56,7 @@ a:visited { color: #205caa; }
 .site-title,
 .site-title:hover,
 .site-title:visited {
-  font-family: "Press Start 2P", system-ui;
+/*   font-family: "Press Start 2P", system-ui; */
   font-weight: 400;
   font-style: normal;
   display: block;
@@ -70,7 +70,7 @@ a:visited { color: #205caa; }
 }
 
 .site-title-in-footer {
-  font-family: "Press Start 2P", system-ui;
+/*   font-family: "Press Start 2P", system-ui; */
   font-weight: 100;
   font-style: normal;
 }
@@ -162,7 +162,7 @@ a:visited { color: #205caa; }
 
 
 .important {
-  font-family: "Press Start 2P", system-ui;
+/*   font-family: "Press Start 2P", system-ui; */
   font-weight: 300;
   font-style: normal;
   font-size: 22px;
@@ -182,7 +182,7 @@ a:visited { color: #205caa; }
 }
 
 .post-link {
-  font-family: "Press Start 2P", system-ui;
+/*   font-family: "Press Start 2P", system-ui; */
   font-weight: 200;
   font-style: normal;
 }
@@ -194,7 +194,7 @@ a:visited { color: #205caa; }
 }
 
 .post-date {
-  font-family: "Press Start 2P", system-ui;
+/*   font-family: "Press Start 2P", system-ui; */
   font-weight: 200;
   font-style: normal;
 }
@@ -205,7 +205,7 @@ a:visited { color: #205caa; }
 
 .post-header { 
   margin: 10px 0 30px; 
-  font-family: "Press Start 2P", system-ui;
+/*   font-family: "Press Start 2P", system-ui; */
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
