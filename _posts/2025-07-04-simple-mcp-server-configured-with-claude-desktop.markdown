@@ -381,7 +381,7 @@ workspace
 
 The `mcp.run(transport="stdio")` in `main.py` indicates that the MCP server is running in the same host the client (in this case Claude Desktop App) is running.
 
-# Claude desktop config to attach MCP server
+## Claude desktop config to attach MCP server
 
 Open Claude desktop app:
 
@@ -480,5 +480,3 @@ Now I'm asking about amenities and booking a suite room:
 Next time when I ask for available rooms, the booked room 301 is excluded.
 
 <img src="/assets/claude-mcp-6.jpg" width="100%"> <br />
-
-<br />

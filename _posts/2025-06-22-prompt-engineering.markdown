@@ -122,6 +122,6 @@ ReAct prompting reduces AI hallucinations by grounding responses in real data. I
 
 ℹ️ *work in progress*
 
-<span class="important">Dvide and conquer prompting</span>
+<span class="important">Divide and conquer prompting</span>
 
 ℹ️ *work in progress*
